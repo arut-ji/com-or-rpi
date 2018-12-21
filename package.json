@@ -1,0 +1,25 @@
+{
+  "name": "com-or-project",
+  "version": "1.0.0",
+  "description": "This is a project for computer organization and assembly programming project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Arut Jinadit and Pasuta Paopun",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "mqtt": "^2.18.8",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-promise": "^3.6.0"
+  },
+  "private": true,
+  "engine": {
+    "node": 8
+  }
+}
